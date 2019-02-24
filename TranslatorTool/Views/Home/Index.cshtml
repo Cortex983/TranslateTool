@@ -1,0 +1,20 @@
+﻿@{
+
+    ViewBag.Title = "Home Page";
+}
+
+<form action="@Url.Action("FinalTranslation","Home")" method="post">
+    <div style=" background-color:#f2f7fa; border: solid 1px #c6cfd4; padding:50px 20px 20px 20px">
+        <input type="hidden" id="Id" name="Id" />
+        @*@Html.TextBox("txtInput", " ", new { style = "width:100%" })*@
+        <input type="text" id="txtInput" style="width:100%">
+
+    </div>
+
+    <div style="padding:12px; height:200px;">
+        Translated text:
+        <span id="forTranslate"></span>
+    </div>
+
+    <button type="submit" class="btn btn-warning pull-right">OK - continue</button>
+</form>

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Translator Tool</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script>
+        var rUrl = "@Url.Content("~/")";
+
+    </script>
+
+
+</head>
+<body>
+    <div class="container body-content" style="border:solid 2px #b40001; border-top: solid 150px #b40001; padding:15px 30px 60px 30px">
+        @RenderBody()
+ 
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/Script.js")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>
