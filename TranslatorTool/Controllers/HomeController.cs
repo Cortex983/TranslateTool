@@ -18,7 +18,7 @@ namespace TranslatorTool.Controllers
        
         public ActionResult Index()
         {
-            string credential_path = HostingEnvironment.MapPath("~/App_Data/TranslateTool-00f5c019396a.json");
+            string credential_path = HostingEnvironment.MapPath("~/App_Data/TranslateTool-f2d425cde5a8.json");
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credential_path);
 
             return View();
