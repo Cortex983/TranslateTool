@@ -10,7 +10,7 @@ Usage
 
 In order to use the software, you can simply download a Visual Studio project from  [here](https://github.com/Cortex983/TranslateTool).
 
-Once the application is running, just going to taype in to text box and after 3 sec your text will be translated and create xml file which is saved in to **App_Data** folder. After click on the button  Ok - continue they will go on another page and show result from last translated text in to xml file.
+Once the application is running, just going to taype in to text box and after 3 sec your text will be translated and create xml file which is saved in to **App_Data** folder. After click on the button **Ok - continue** they will go on another page and show result from last translated text in to xml file.
 
 All Languages will be translated to Serbian. If you try translate Serbian or Croatian then result will be translated to English. 
 
