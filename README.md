@@ -1,6 +1,6 @@
 # TranslateTool
 
-A simple _Computer Assisted Translation_ tool for translate plain text files,
+A simple _Computer Assisted Translation_ tool for translate plain text from text box,
 with automatic recognize languages.
 
 > For now, *Google Cloud Translate* are supported.
